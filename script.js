@@ -27,6 +27,8 @@ async function fetchCurrencies() {
     option2.textContent = currency;
     toCurrency.appendChild(option2);
   });
+  fromCurrency.value = 'USD';
+  toCurrency.value = 'NPR';
 }
 
 async function convertCurrency(e) {
